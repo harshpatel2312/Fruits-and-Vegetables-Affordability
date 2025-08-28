@@ -1,0 +1,369 @@
+Vegetables,Year,RetailCost
+Acorn squash,2013,1.17
+Acorn squash,2016,1.12
+Acorn squash,2020,1.1804
+Acorn squash,2022,1.2136
+Artichoke,2013,2.21
+Artichoke,2016,2.36
+Artichoke,2020,2.1913
+Artichoke,2022,2.4703
+Artichoke,2013,3.39
+Artichoke,2016,3.32
+Artichoke,2020,3.4119
+Artichoke,2022,3.4498
+Asparagus,2013,3.21
+Asparagus,2016,3.08
+Asparagus,2020,2.7576
+Asparagus,2022,2.9531
+Asparagus,2013,2.58
+Asparagus,2016,2.72
+Asparagus,2020,3.1269
+Asparagus,2022,3.4328
+Asparagus,2013,5.86
+Asparagus,2016,6.07
+Asparagus,2020,6.7045
+Asparagus,2022,6.8212
+Avocados,2013,2.24
+Avocados,2016,2.23
+Avocados,2020,2.2368
+Avocados,2022,2.6737
+Beets,2013,1.02
+Beets,2016,0.94
+Beets,2020,1.2684
+Beets,2022,1.1431
+Black beans,2013,0.98
+Black beans,2016,0.95
+Black beans,2020,1.0281
+Black beans,2022,1.2387
+Black beans,2013,1.49
+Black beans,2016,1.4
+Black beans,2020,1.3753
+Black beans,2022,1.525
+Blackeye peas,2013,0.91
+Blackeye peas,2016,0.93
+Blackeye peas,2020,1.0375
+Blackeye peas,2022,1.3164
+Blackeye peas,2013,1.59
+Blackeye peas,2016,1.61
+Blackeye peas,2020,1.7584
+Blackeye peas,2022,1.9265
+Broccoli florets,2013,2.57
+Broccoli florets,2016,2.36
+Broccoli florets,2020,2.7486
+Broccoli florets,2022,2.9162
+Broccoli heads,2013,1.64
+Broccoli heads,2016,1.92
+Broccoli heads,2020,2.3065
+Broccoli heads,2022,3.082
+Broccoli,2013,1.87
+Broccoli,2016,1.82
+Broccoli,2020,2.1543
+Broccoli,2022,2.3458
+Brussels sprouts,2013,2.76
+Brussels sprouts,2016,2.96
+Brussels sprouts,2020,2.6895
+Brussels sprouts,2022,2.9139
+Brussels sprouts,2013,2.14
+Brussels sprouts,2016,2.04
+Brussels sprouts,2020,2.6214
+Brussels sprouts,2022,2.5949
+Butternut squash,2013,1.24
+Butternut squash,2016,1.29
+Butternut squash,2020,1.2325
+Butternut squash,2022,1.2691
+"Cabbage, green",2013,0.58
+"Cabbage, green",2016,0.62
+"Cabbage, green",2020,0.7025
+"Cabbage, green",2022,0.797
+"Cabbage, red",2013,1.06
+"Cabbage, red",2016,1.02
+"Cabbage, red",2020,1.0985
+"Cabbage, red",2022,1.2604
+"Cabbage, sauerkraut",2013,1.26
+"Cabbage, sauerkraut",2016,1.15
+"Cabbage, sauerkraut",2020,1.2823
+"Cabbage, sauerkraut",2022,1.478
+"Carrots, cooked whole",2013,0.74
+"Carrots, cooked whole",2016,0.77
+"Carrots, cooked whole",2020,0.8703
+"Carrots, cooked whole",2022,0.9761
+"Carrots, raw whole",2013,0.74
+"Carrots, raw whole",2016,0.77
+"Carrots, raw whole",2020,0.8703
+"Carrots, raw whole",2022,0.9761
+"Carrots, baby",2013,1.45
+"Carrots, baby",2016,1.44
+"Carrots, baby",2020,1.2716
+"Carrots, baby",2022,1.3507
+Carrots,2013,1.06
+Carrots,2016,0.92
+Carrots,2020,1.1315
+Carrots,2022,1.1979
+Carrots,2013,1.46
+Carrots,2016,1.4
+Carrots,2020,1.6763
+Carrots,2022,1.7277
+Cauliflower florets,2013,3.27
+Cauliflower florets,2016,3.13
+Cauliflower florets,2020,3.5859
+Cauliflower florets,2022,3.8022
+Cauliflower heads,2013,1.23
+Cauliflower heads,2016,1.42
+Cauliflower heads,2020,1.9769
+Cauliflower heads,2022,2.1841
+Cauliflower,2013,1.72
+Cauliflower,2016,1.68
+Cauliflower,2020,1.9946
+Cauliflower,2022,2.3974
+"Celery, trimmed bunches",2013,1.11
+"Celery, trimmed bunches",2016,1.09
+"Celery, trimmed bunches",2020,0.9842
+"Celery, trimmed bunches",2022,1.1637
+Celery sticks,2013,2.2
+Celery sticks,2016,2.13
+Celery sticks,2020,2.4041
+Celery sticks,2022,2.4941
+Collard greens,2013,2.63
+Collard greens,2016,2.63
+Collard greens,2020,2.682
+Collard greens,2022,3.0881
+Collard greens,2013,0.9
+Collard greens,2016,0.85
+Collard greens,2020,1.0418
+Collard greens,2022,1.3315
+Collard greens,2013,1.48
+Collard greens,2016,1.59
+Collard greens,2020,1.9022
+Collard greens,2022,2.3512
+Corn,2013,2.69
+Corn,2016,3.26
+Corn,2020,1.8908
+Corn,2022,2.2281
+Corn,2013,0.9
+Corn,2016,0.85
+Corn,2020,1.0287
+Corn,2022,1.1543
+Corn,2013,1.62
+Corn,2016,1.6
+Corn,2020,1.6642
+Corn,2022,1.6889
+Cucumbers with peel,2013,1.3
+Cucumbers with peel,2016,1.26
+Cucumbers with peel,2020,1.1933
+Cucumbers with peel,2022,1.2473
+Cucumbers without peel,2013,1.3
+Cucumbers without peel,2016,1.26
+Cucumbers without peel,2020,1.1933
+Cucumbers without peel,2022,1.2473
+Great northern beans,2013,0.92
+Great northern beans,2016,0.87
+Great northern beans,2020,1.0095
+Great northern beans,2022,1.1583
+Great northern beans,2013,1.53
+Great northern beans,2016,1.59
+Great northern beans,2020,1.6965
+Great northern beans,2022,1.7202
+Green beans,2013,2.14
+Green beans,2016,2.13
+Green beans,2020,2.1463
+Green beans,2022,2.6199
+Green beans,2013,0.83
+Green beans,2016,0.82
+Green beans,2020,1.0175
+Green beans,2022,1.1291
+Green beans,2013,1.67
+Green beans,2016,1.7
+Green beans,2020,1.946
+Green beans,2022,1.9983
+Green peas,2013,1.01
+Green peas,2016,0.99
+Green peas,2020,1.2516
+Green peas,2022,1.3118
+Green peas,2013,1.65
+Green peas,2016,1.66
+Green peas,2020,1.8937
+Green peas,2022,1.996
+Green peppers,2013,1.41
+Green peppers,2016,1.49
+Green peppers,2020,1.2772
+Green peppers,2022,1.4789
+Kale,2013,2.81
+Kale,2016,2.88
+Kale,2020,2.5018
+Kale,2022,3.4338
+Kale,2013,1.72
+Kale,2016,2.07
+Kale,2020,2.1257
+Kale,2022,2.2983
+Kidney beans,2013,0.9
+Kidney beans,2016,0.86
+Kidney beans,2020,0.9719
+Kidney beans,2022,1.1208
+Kidney beans,2013,1.67
+Kidney beans,2016,1.69
+Kidney beans,2020,1.7218
+Kidney beans,2022,1.9176
+Lentils,2013,1.39
+Lentils,2016,1.56
+Lentils,2020,1.6493
+Lentils,2022,1.839
+"Lettuce, iceberg",2013,1.21
+"Lettuce, iceberg",2016,1.09
+"Lettuce, iceberg",2020,0.9952
+"Lettuce, iceberg",2022,1.2512
+"Lettuce, romaine, heads",2013,1.84
+"Lettuce, romaine, heads",2016,1.48
+"Lettuce, romaine, heads",2020,1.8299
+"Lettuce, romaine, heads",2022,2.3074
+"Lettuce, romaine, hearts",2013,2.75
+"Lettuce, romaine, hearts",2016,2.55
+"Lettuce, romaine, hearts",2020,2.5766
+"Lettuce, romaine, hearts",2022,3.2802
+Lima beans,2013,1.38
+Lima beans,2016,1.33
+Lima beans,2020,1.4004
+Lima beans,2022,1.4785
+Lima beans,2013,1.84
+Lima beans,2016,1.9
+Lima beans,2020,1.8995
+Lima beans,2022,2.4401
+Lima beans,2013,1.73
+Lima beans,2016,2.22
+Lima beans,2020,2.1861
+Lima beans,2022,2.3933
+"Mixed vegetables, peas & carrots",2013,1.32
+"Mixed vegetables, peas & carrots",2016,1.12
+"Mixed vegetables, peas & carrots",2020,1.5339
+"Mixed vegetables, peas & carrots",2022,1.4754
+"Mixed vegetables, peas & carrots",2013,1.39
+"Mixed vegetables, peas & carrots",2016,1.34
+"Mixed vegetables, peas & carrots",2020,1.5296
+"Mixed vegetables, peas & carrots",2022,1.8433
+"Mixed vegetables, carrots, peas, corn, green beans",2013,1.11
+"Mixed vegetables, carrots, peas, corn, green beans",2016,1.13
+"Mixed vegetables, carrots, peas, corn, green beans",2020,1.5978
+"Mixed vegetables, carrots, peas, corn, green beans",2022,1.7859
+"Mixed vegetables, broccoli, cauliflower, carrots",2013,1.8
+"Mixed vegetables, broccoli, cauliflower, carrots",2016,1.79
+"Mixed vegetables, broccoli, cauliflower, carrots",2020,2.0033
+"Mixed vegetables, broccoli, cauliflower, carrots",2022,2.1538
+"Mushrooms, whole",2013,3.41
+"Mushrooms, whole",2016,3.55
+"Mushrooms, whole",2020,3.4464
+"Mushrooms, whole",2022,3.8929
+"Mushrooms, sliced",2013,3.82
+"Mushrooms, sliced",2016,3.81
+"Mushrooms, sliced",2020,3.6417
+"Mushrooms, sliced",2022,3.9224
+Mustard greens,2013,0.98
+Mustard greens,2016,0.82
+Mustard greens,2020,1.0496
+Mustard greens,2022,1.3367
+Mustard greens,2013,1.46
+Mustard greens,2016,1.56
+Mustard greens,2020,1.9288
+Mustard greens,2022,2.4324
+Navy beans,2013,0.97
+Navy beans,2016,0.95
+Navy beans,2020,1.0492
+Navy beans,2022,1.2738
+Navy beans,2013,1.51
+Navy beans,2016,1.48
+Navy beans,2020,1.4942
+Navy beans,2022,1.6073
+Okra,2013,3.21
+Okra,2016,3.82
+Okra,2020,3.9803
+Okra,2022,5.1567
+Okra,2013,1.56
+Okra,2016,1.57
+Okra,2020,1.8562
+Okra,2022,2.2528
+Olives,2013,4.19
+Olives,2016,5.09
+Olives,2020,5.7719
+Olives,2022,5.3496
+Onions,2013,1.04
+Onions,2016,1.05
+Onions,2020,0.9751
+Onions,2022,1.1062
+Pinto beans,2013,0.87
+Pinto beans,2016,0.8
+Pinto beans,2020,0.8742
+Pinto beans,2022,1.1189
+Pinto beans,2013,1.2
+Pinto beans,2016,1.09
+Pinto beans,2020,1.2933
+Pinto beans,2022,1.4173
+Potatoes,2013,0.56
+Potatoes,2016,0.6
+Potatoes,2020,0.6682
+Potatoes,2022,0.8166
+"Potatoes, french fries",2013,1.18
+"Potatoes, french fries",2016,1.22
+"Potatoes, french fries",2020,1.5371
+"Potatoes, french fries",2022,1.9018
+Potatoes,2013,0.97
+Potatoes,2016,0.9
+Potatoes,2020,1.107
+Potatoes,2022,1.0266
+Pumpkin,2013,1.35
+Pumpkin,2016,1.38
+Pumpkin,2020,2.0172
+Pumpkin,2022,1.8642
+Radish,2013,1.31
+Radish,2016,1.46
+Radish,2020,1.577
+Radish,2022,1.8126
+Red peppers,2013,2.28
+Red peppers,2016,2.32
+Red peppers,2020,2.1614
+Red peppers,2022,1.8742
+"Spinach, boiled",2013,3.83
+"Spinach, boiled",2016,3.83
+"Spinach, boiled",2020,2.994
+"Spinach, boiled",2022,4.1214
+"Spinach, eaten raw",2013,3.83
+"Spinach, eaten raw",2016,3.83
+"Spinach, eaten raw",2020,2.994
+"Spinach, eaten raw",2022,4.1214
+Spinach,2013,1.15
+Spinach,2016,1.13
+Spinach,2020,1.3154
+Spinach,2022,1.5676
+Spinach,2013,1.9
+Spinach,2016,1.76
+Spinach,2020,2.133
+Spinach,2022,2.2796
+Sweet potatoes,2013,0.92
+Sweet potatoes,2016,1.05
+Sweet potatoes,2020,1.1198
+Sweet potatoes,2022,1.1565
+"Tomatoes, grape & cherry",2013,3.29
+"Tomatoes, grape & cherry",2016,3.48
+"Tomatoes, grape & cherry",2020,4.1458
+"Tomatoes, grape & cherry",2022,3.8729
+"Tomatoes, roma & plum",2013,1.24
+"Tomatoes, roma & plum",2016,1.29
+"Tomatoes, roma & plum",2020,1.1618
+"Tomatoes, roma & plum",2022,1.2453
+"Tomatoes, large round",2013,3.16
+"Tomatoes, large round",2016,2.01
+"Tomatoes, large round",2020,2.3347
+"Tomatoes, large round",2022,2.1868
+Tomatoes,2013,0.92
+Tomatoes,2016,0.91
+Tomatoes,2020,1.0175
+Tomatoes,2022,1.0715
+Turnip greens,2013,2.47
+Turnip greens,2016,2.51
+Turnip greens,2020,2.4176
+Turnip greens,2022,2.925
+Turnip greens,2013,0.97
+Turnip greens,2016,0.78
+Turnip greens,2020,1.0429
+Turnip greens,2022,1.3154
+Turnip greens,2013,1.47
+Turnip greens,2016,1.58
+Turnip greens,2020,1.9451
+Turnip greens,2022,2.5169

@@ -1,0 +1,337 @@
+---
+title: "Project"
+author: "Liam"
+date: "2025-03-28"
+output: html_document
+---
+
+```{r}
+# Load ggplot2
+library(ggplot2)
+
+data <- read.csv("ProjectData.csv")
+
+dataFruit <- data.frame(
+  data$Fruit2022, data$FormF2022, data$RetailCostPer.Pound.PintF2022,
+  data$Fruit2020, data$FormF2020, data$RetailCostPer.Pound.PintF2020,
+  data$Fruit2016, data$FormF2016, data$RetailCostPer.Pound.PintF2016,
+  data$Fruit2013, data$FormF2013, data$RetailCostPer.Pound.PintF2013
+  )
+dataVeg <- data.frame(
+  data$Vegetable2022, data$FormV2022, data$RetailCostPer.Pound.PintV2022,
+  data$Vegetable2020, data$FormV2020, data$RetailCostPer.Pound.PintV2020,
+  data$Vegetable2016, data$FormV2016, data$RetailCostPer.Pound.PintV2016,
+  data$Vegetable2013, data$FormV2013, data$RetailCostPer.Pound.PintV2013
+  )
+
+#Clean up the fruit/veg data (remove na rows):
+print("Note: Some fruits/vegetables do not have price data for all 4 years can be excluded (example: Zucchinis only have data in 2022/2020)")
+dataFruit <- na.omit(dataFruit)
+dataVeg <- na.omit(dataVeg)
+
+# Barplot
+ggplot(dataFruit, aes(x=data.RetailCostPer.Pound.PintF2022, y=data.Fruit2022, color = data.FormF2022, shape = data.FormF2022)) + geom_bar(position="dodge", stat = "identity") + theme_gray(base_size = 7)
+ggplot(dataFruit, aes(x=data.RetailCostPer.Pound.PintF2020, y=data.Fruit2020, color = data.FormF2020, shape = data.FormF2020)) + geom_bar(position="dodge", stat = "identity") + theme_gray(base_size = 7)
+ggplot(dataFruit, aes(x=data.RetailCostPer.Pound.PintF2016, y=data.Fruit2016, color = data.FormF2016, shape = data.FormF2016)) + geom_bar(position="dodge", stat = "identity") + theme_gray(base_size = 7)
+ggplot(dataFruit, aes(x=data.RetailCostPer.Pound.PintF2013, y=data.Fruit2013, color = data.FormF2013, shape = data.FormF2013)) + geom_bar(position="dodge", stat = "identity") + theme_gray(base_size = 7)
+ggplot(dataVeg, aes(x=data.RetailCostPer.Pound.PintV2022, y=data.Vegetable2022, color = data.FormV2022, shape = data.FormV2022)) + geom_bar(position="dodge", stat = "identity") + theme_gray(base_size = 7)
+ggplot(dataVeg, aes(x=data.RetailCostPer.Pound.PintV2020, y=data.Vegetable2020, color = data.FormV2020, shape = data.FormV2020)) + geom_bar(position="dodge", stat = "identity") + theme_gray(base_size = 7)
+ggplot(dataVeg, aes(x=data.RetailCostPer.Pound.PintV2016, y=data.Vegetable2016, color = data.FormV2013, shape = data.FormV2016)) + geom_bar(position="dodge", stat = "identity") + theme_gray(base_size = 7)
+ggplot(dataVeg, aes(x=data.RetailCostPer.Pound.PintV2013, y=data.Vegetable2013, color = data.FormV2013, shape = data.FormV2013)) + geom_bar(position="dodge", stat = "identity") + theme_gray(base_size = 7)
+#U.S. Department of Agriculture, Economic Research Service. (2024). Fruit and vegetable prices.
+#Large variance in fruit prices
+```
+
+
+
+
+```{r}
+print(dataFruit)
+print(dataVeg)
+```
+
+
+
+```{r}
+# Checking the mean price across years
+# Fruits
+fruit_retail_cost <- data.frame(RetailCost_2013 = dataFruit$data.RetailCostPer.Pound.PintF2013, 
+                                    RetailCost_2016 = dataFruit$data.RetailCostPer.Pound.PintF2016, 
+                                    RetailCost_2020 = dataFruit$data.RetailCostPer.Pound.PintF2020, 
+                                    RetailCost_2022 = dataFruit$data.RetailCostPer.Pound.PintF2022)
+
+print(fruit_retail_cost)
+
+# Vegetables
+veg_retail_cost <- data.frame(RetailCost_2013 = dataVeg$data.RetailCostPer.Pound.PintV2013,
+                              RetailCost_2016 = dataVeg$data.RetailCostPer.Pound.PintV2016,
+                              RetailCost_2020 = dataVeg$data.RetailCostPer.Pound.PintV2020,
+                              RetailCost_2022 = dataVeg$data.RetailCostPer.Pound.PintV2022)
+print(veg_retail_cost)
+```
+
+```{r}
+summary(fruit_retail_cost) # We can see there is increase in mean prices over the time span
+```
+
+```{r}
+summary(veg_retail_cost) # We can see there is increase in mean prices over the time span
+```
+
+
+```{r}
+dataF2022 <- data.frame(
+  cost <- data$RetailCostPer.Pound.PintF2022,
+  year <- 2022
+)
+dataF2020 <- data.frame(
+  cost <- data$RetailCostPer.Pound.PintF2020,
+  year <- 2020
+)
+dataF2016 <- data.frame(
+  cost <- data$RetailCostPer.Pound.PintF2016,
+  year <- 2016
+)
+dataF2013 <- data.frame(
+  cost <- data$RetailCostPer.Pound.PintF2013,
+  year <- 2013
+)
+
+dataF <- data.frame(
+  cost <- c(dataF2022$cost, dataF2020$cost, dataF2016$cost, dataF2013$cost),
+  year <- c(dataF2022$year, dataF2020$year, dataF2016$year, dataF2013$year)
+)
+
+levels(dataF$year)
+boxplot(cost ~ year, data = dataF)
+
+dataV2022 <- data.frame(
+  cost <- data$RetailCostPer.Pound.PintV2022,
+  year <- 2022
+)
+dataV2020 <- data.frame(
+  cost <- data$RetailCostPer.Pound.PintV2020,
+  year <- 2020
+)
+dataV2016 <- data.frame(
+  cost <- data$RetailCostPer.Pound.PintV2016,
+  year <- 2016
+)
+dataV2013 <- data.frame(
+  cost <- data$RetailCostPer.Pound.PintV2013,
+  year <- 2013
+)
+
+dataV <- data.frame(
+  cost <- c(dataV2022$cost, dataV2020$cost, dataV2016$cost, dataV2013$cost),
+  year <- c(dataV2022$year, dataV2020$year, dataV2016$year, dataV2013$year)
+)
+
+levels(dataV$year)
+boxplot(cost ~ year, data = dataV)
+```
+
+
+
+
+
+
+```{r}
+# Let's plot a graph to see the overall price trend
+library(ggplot2)
+
+years <- c(2013, 2016, 2020, 2022)
+fruit_retail_cost_avg <- c(mean(fruit_retail_cost$RetailCost_2013),
+                           mean(fruit_retail_cost$RetailCost_2016),
+                           mean(fruit_retail_cost$RetailCost_2020),
+                                mean(fruit_retail_cost$RetailCost_2022))
+
+veg_retail_cost_avg <- c(mean(veg_retail_cost$RetailCost_2013),
+                         mean(veg_retail_cost$RetailCost_2016),
+                         mean(veg_retail_cost$RetailCost_2020),
+                         mean(veg_retail_cost$RetailCost_2022))
+
+# Line plot
+plot(years, fruit_retail_cost_avg, type="o", col = "red", ylim = range(c(fruit_retail_cost_avg, veg_retail_cost_avg)), xlab = "Year", ylab = "Average Retail Cost",  main = "Average Retail Cost of Fruits and Vegetables (2013–2022)")
+
+lines(years, veg_retail_cost_avg, type = "o", col = "blue") # Adding vegetable line to the above plot
+
+legend("topleft", legend = c("Fruits", "Vegetables"), col = c("red", "blue"))
+
+# We can see a gradual shift until 2020 and then a sudden hunp in 2022 for both vegetables and fruits.
+```
+
+```{r}
+# Preparing data for hypothesis test
+fruit_retail_cost$Fruits <- dataFruit$data.Fruit2022
+
+fruits_new_order <- c("Fruits", "RetailCost_2013", "RetailCost_2016", "RetailCost_2020", "RetailCost_2022")
+fruit_retail_cost <- fruit_retail_cost[, fruits_new_order]
+print(fruit_retail_cost)
+
+veg_retail_cost$Vegetables <- dataVeg$data.Vegetable2022
+
+veg_new_order <- c("Vegetables", "RetailCost_2013", "RetailCost_2016", "RetailCost_2020", "RetailCost_2022")
+veg_retail_cost <- veg_retail_cost[, veg_new_order]
+print(veg_retail_cost)
+
+# Saving files to reshape the data to long format using excel
+write.csv(fruit_retail_cost, file = "Fruits_Retail_Cost.csv")
+write.csv(veg_retail_cost, file = "Veg_Retail_Cost.csv")
+```
+
+
+```{r}
+# Let's do a hypothesis test to verify if the mean costs of fruits have significantly changed before vs. after 2020
+
+print(fruit_retail_cost)
+
+fruit_2013_avg <- mean(fruit_retail_cost$RetailCost_2013)
+fruit_2016_avg <- mean(fruit_retail_cost$RetailCost_2016)
+fruit_2020_avg <- mean(fruit_retail_cost$RetailCost_2020)
+fruit_2022_avg <- mean(fruit_retail_cost$RetailCost_2022)
+
+fruits_yearly <- data.frame(Year=c(2013, 2016, 2020, 2022),
+                            Avg_Cost=c(fruit_2013_avg, fruit_2016_avg, fruit_2020_avg, fruit_2022_avg))
+fruits_yearly
+```
+
+
+
+```{r}
+# Hypothesis test
+fruits_yearly$Period <- ifelse(fruits_yearly$Year < 2020, "Before2020", "After2020")
+anova_results_fruit <- aov(Avg_Cost ~ Year, data = fruits_yearly)
+summary(anova_results_fruit)
+# Since the p-value > 0.05 for the ANOVA we can conclude that there exist no evidence that the prices significantly increased for fruits after 2022.
+```
+
+
+```{r}
+# Let's see for vegetables now
+print(veg_retail_cost)
+
+veg_2013_avg <- mean(veg_retail_cost$RetailCost_2013)
+veg_2016_avg <- mean(veg_retail_cost$RetailCost_2016)
+veg_2020_avg <- mean(veg_retail_cost$RetailCost_2020)
+veg_2022_avg <- mean(veg_retail_cost$RetailCost_2022)
+
+veg_yearly <- data.frame(Year=c(2013, 2016, 2020, 2022),
+                            Avg_Cost=c(veg_2013_avg, veg_2016_avg, veg_2020_avg, veg_2022_avg))
+veg_yearly
+```
+
+
+
+
+
+```{r}
+# Hypothesis test
+#veg_yearly$Period <- ifelse(veg_yearly$Year < 2020, "Before2020", "After2020")
+
+anova_result <- aov(Avg_Cost ~ Year, data = veg_yearly)
+summary(anova_result)
+# Since the p-value > 0.05 for the ANOVA we can conclude that there exist no evidence that the prices significantly increased for vegetables after 2022.
+```
+
+
+```{r}
+# At last we can conclude that the difference in the means of the cost is due to a random chance. There exist no statistically significant reason that the prices changed drastically after a period of time
+```
+
+
+```{r}
+# Prediction of price for fruits
+fruits_reshaped <- read.csv("Fruits_Retail_Cost_reshaped.csv")
+fruits_reshaped
+```
+
+
+```{r}
+reshaped_model_fruit <- lm(RetailCost ~ Year * Fruits, data = fruits_reshaped)
+reshaped_model_fruit
+```
+
+
+```{r}
+# Predict price of fruits
+predict_data_fruit <- data.frame(
+  Year = 2019,
+  Fruits = "Apples"
+)
+
+fruit_predict_results <- predict(reshaped_model_fruit, newdata = predict_data_fruit)
+fruit_predict_results
+```
+
+
+```{r}
+# Prediction of price for vegetables
+veg_reshaped <- read.csv("Veg_Retail_Cost_reshaped.csv")
+veg_reshaped
+```
+
+
+```{r}
+reshaped_model_veg <- lm(RetailCost ~ Year * Vegetables, data = veg_reshaped)
+reshaped_model_veg
+```
+
+```{r}
+# Predict price of vegetables
+predict_data_veg <- data.frame(
+  Year = 2017,
+  Vegetables = "Avocados"
+)
+
+veg_predict_results <- predict(reshaped_model_veg, newdata = predict_data_veg)
+veg_predict_results
+```
+
+
+
+```{r}
+summary(reshaped_model_fruit)
+```
+
+```{r}
+summary(reshaped_model_veg)
+```
+
+
+```{r}
+plot(reshaped_model_veg)
+# We can see the most residuals lie between -2 and +2, indicating model generally fits well.
+# Red line is relatively flat indicating no clear pattern
+```
+
+
+
+
+```{r}
+plot(reshaped_model_fruit)
+# We can see the most residuals lie between -2 and +2, indicating model generally fits well.
+# Red line is relatively flat indicating no clear pattern
+```
+
+
+```{r}
+shapiro.test(residuals(reshaped_model_fruit))
+shapiro.test(residuals(reshaped_model_veg))
+
+# This test shows that the p-value residuals are not normally distributed. Might be due to skweness or outliers.
+
+```
+
+```{r}
+qqnorm(residuals(reshaped_model_fruit)); qqline(residuals(reshaped_model_fruit), col = "red")
+qqnorm(residuals(reshaped_model_veg)); qqline(residuals(reshaped_model_veg), col = "blue")
+
+# The qq plot confirms the deviation in at the tails indicating non-linearity.
+# For future improvements we can use log transformation for better normality distribution or robust regression which is less sensitive to outliers/non-normality.
+
+```
+
+
+
+
