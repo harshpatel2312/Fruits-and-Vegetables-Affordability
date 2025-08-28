@@ -1,0 +1,93 @@
+Vegetables,RetailCost_2013,RetailCost_2016,RetailCost_2020,RetailCost_2022
+Acorn squash,1.17,1.12,1.1804,1.2136
+Artichoke,2.21,2.36,2.1913,2.4703
+Artichoke,3.39,3.32,3.4119,3.4498
+Asparagus,3.21,3.08,2.7576,2.9531
+Asparagus,2.58,2.72,3.1269,3.4328
+Asparagus,5.86,6.07,6.7045,6.8212
+Avocados,2.24,2.23,2.2368,2.6737
+Beets,1.02,0.94,1.2684,1.1431
+Black beans,0.98,0.95,1.0281,1.2387
+Black beans,1.49,1.4,1.3753,1.525
+Blackeye peas,0.91,0.93,1.0375,1.3164
+Blackeye peas,1.59,1.61,1.7584,1.9265
+Broccoli florets,2.57,2.36,2.7486,2.9162
+Broccoli heads,1.64,1.92,2.3065,3.082
+Broccoli,1.87,1.82,2.1543,2.3458
+Brussels sprouts,2.76,2.96,2.6895,2.9139
+Brussels sprouts,2.14,2.04,2.6214,2.5949
+Butternut squash,1.24,1.29,1.2325,1.2691
+"Cabbage, green",0.58,0.62,0.7025,0.797
+"Cabbage, red",1.06,1.02,1.0985,1.2604
+"Cabbage, sauerkraut",1.26,1.15,1.2823,1.478
+"Carrots, cooked whole",0.74,0.77,0.8703,0.9761
+"Carrots, raw whole",0.74,0.77,0.8703,0.9761
+"Carrots, baby",1.45,1.44,1.2716,1.3507
+Carrots,1.06,0.92,1.1315,1.1979
+Carrots,1.46,1.4,1.6763,1.7277
+Cauliflower florets,3.27,3.13,3.5859,3.8022
+Cauliflower heads,1.23,1.42,1.9769,2.1841
+Cauliflower,1.72,1.68,1.9946,2.3974
+"Celery, trimmed bunches",1.11,1.09,0.9842,1.1637
+Celery sticks,2.2,2.13,2.4041,2.4941
+Collard greens,2.63,2.63,2.682,3.0881
+Collard greens,0.9,0.85,1.0418,1.3315
+Collard greens,1.48,1.59,1.9022,2.3512
+Corn,2.69,3.26,1.8908,2.2281
+Corn,0.9,0.85,1.0287,1.1543
+Corn,1.62,1.6,1.6642,1.6889
+Cucumbers with peel,1.3,1.26,1.1933,1.2473
+Cucumbers without peel,1.3,1.26,1.1933,1.2473
+Great northern beans,0.92,0.87,1.0095,1.1583
+Great northern beans,1.53,1.59,1.6965,1.7202
+Green beans,2.14,2.13,2.1463,2.6199
+Green beans,0.83,0.82,1.0175,1.1291
+Green beans,1.67,1.7,1.946,1.9983
+Green peas,1.01,0.99,1.2516,1.3118
+Green peas,1.65,1.66,1.8937,1.996
+Green peppers,1.41,1.49,1.2772,1.4789
+Kale,2.81,2.88,2.5018,3.4338
+Kale,1.72,2.07,2.1257,2.2983
+Kidney beans,0.9,0.86,0.9719,1.1208
+Kidney beans,1.67,1.69,1.7218,1.9176
+Lentils,1.39,1.56,1.6493,1.839
+"Lettuce, iceberg",1.21,1.09,0.9952,1.2512
+"Lettuce, romaine, heads",1.84,1.48,1.8299,2.3074
+"Lettuce, romaine, hearts",2.75,2.55,2.5766,3.2802
+Lima beans,1.38,1.33,1.4004,1.4785
+Lima beans,1.84,1.9,1.8995,2.4401
+Lima beans,1.73,2.22,2.1861,2.3933
+"Mixed vegetables, peas & carrots",1.32,1.12,1.5339,1.4754
+"Mixed vegetables, peas & carrots",1.39,1.34,1.5296,1.8433
+"Mixed vegetables, carrots, peas, corn, green beans",1.11,1.13,1.5978,1.7859
+"Mixed vegetables, broccoli, cauliflower, carrots",1.8,1.79,2.0033,2.1538
+"Mushrooms, whole",3.41,3.55,3.4464,3.8929
+"Mushrooms, sliced",3.82,3.81,3.6417,3.9224
+Mustard greens,0.98,0.82,1.0496,1.3367
+Mustard greens,1.46,1.56,1.9288,2.4324
+Navy beans,0.97,0.95,1.0492,1.2738
+Navy beans,1.51,1.48,1.4942,1.6073
+Okra,3.21,3.82,3.9803,5.1567
+Okra,1.56,1.57,1.8562,2.2528
+Olives,4.19,5.09,5.7719,5.3496
+Onions,1.04,1.05,0.9751,1.1062
+Pinto beans,0.87,0.8,0.8742,1.1189
+Pinto beans,1.2,1.09,1.2933,1.4173
+Potatoes,0.56,0.6,0.6682,0.8166
+"Potatoes, french fries",1.18,1.22,1.5371,1.9018
+Potatoes,0.97,0.9,1.107,1.0266
+Pumpkin,1.35,1.38,2.0172,1.8642
+Radish,1.31,1.46,1.577,1.8126
+Red peppers,2.28,2.32,2.1614,1.8742
+"Spinach, boiled",3.83,3.83,2.994,4.1214
+"Spinach, eaten raw",3.83,3.83,2.994,4.1214
+Spinach,1.15,1.13,1.3154,1.5676
+Spinach,1.9,1.76,2.133,2.2796
+Sweet potatoes,0.92,1.05,1.1198,1.1565
+"Tomatoes, grape & cherry",3.29,3.48,4.1458,3.8729
+"Tomatoes, roma & plum",1.24,1.29,1.1618,1.2453
+"Tomatoes, large round",3.16,2.01,2.3347,2.1868
+Tomatoes,0.92,0.91,1.0175,1.0715
+Turnip greens,2.47,2.51,2.4176,2.925
+Turnip greens,0.97,0.78,1.0429,1.3154
+Turnip greens,1.47,1.58,1.9451,2.5169

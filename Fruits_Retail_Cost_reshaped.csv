@@ -1,0 +1,245 @@
+Fruits,Year,RetailCost
+Apples,2013,1.57
+Apples,2016,1.62
+Apples,2020,1.5193
+Apples,2022,1.8541
+"Apples, applesauce",2013,1.08
+"Apples, applesauce",2016,1.05
+"Apples, applesauce",2020,1.066
+"Apples, applesauce",2022,1.1705
+"Apples, ready-to-drink",2013,0.73
+"Apples, ready-to-drink",2016,0.63
+"Apples, ready-to-drink",2020,0.7804
+"Apples, ready-to-drink",2022,0.8699
+"Apples, frozen concentrate",2013,0.54
+"Apples, frozen concentrate",2016,0.51
+"Apples, frozen concentrate",2020,0.5853
+"Apples, frozen concentrate",2022,0.6086
+Apricots,2013,3.04
+Apricots,2016,3.09
+Apricots,2020,2.9665
+Apricots,2022,3.6162
+"Apricots, packed in juice",2013,1.65
+"Apricots, packed in juice",2016,1.47
+"Apricots, packed in juice",2020,1.6905
+"Apricots, packed in juice",2022,1.8645
+"Apricots, packed in syrup or water",2013,1.55
+"Apricots, packed in syrup or water",2016,1.86
+"Apricots, packed in syrup or water",2020,2.06
+"Apricots, packed in syrup or water",2022,2.2362
+Apricots,2013,7.73
+Apricots,2016,7.33
+Apricots,2020,6.6188
+Apricots,2022,7.6611
+Bananas,2013,0.57
+Bananas,2016,0.55
+Bananas,2020,0.5249
+Bananas,2022,0.5971
+"Berries, mixed",2013,3.41
+"Berries, mixed",2016,3.64
+"Berries, mixed",2020,3.5585
+"Berries, mixed",2022,4.2673
+Blackberries,2013,5.77
+Blackberries,2016,5.66
+Blackberries,2020,6.0172
+Blackberries,2022,6.7483
+Blackberries,2013,3.39
+Blackberries,2016,3.69
+Blackberries,2020,3.6362
+Blackberries,2022,4.8277
+Blueberries,2013,4.73
+Blueberries,2016,4.39
+Blueberries,2020,4.1739
+Blueberries,2022,4.1575
+Blueberries,2013,3.64
+Blueberries,2016,3.47
+Blueberries,2020,3.3898
+Blueberries,2022,3.821
+Cantaloupe,2013,0.54
+Cantaloupe,2016,0.52
+Cantaloupe,2020,0.5767
+Cantaloupe,2022,0.7523
+Cherries,2013,3.59
+Cherries,2016,3.21
+Cherries,2020,3.4269
+Cherries,2022,4.6632
+"Cherries, packed in syrup or water",2013,3.52
+"Cherries, packed in syrup or water",2016,3.73
+"Cherries, packed in syrup or water",2020,4.5257
+"Cherries, packed in syrup or water",2022,5.2418
+Cranberries,2013,4.79
+Cranberries,2016,4.69
+Cranberries,2020,4.6513
+Cranberries,2022,5.0828
+Dates,2013,4.79
+Dates,2016,5.51
+Dates,2020,5.5713
+Dates,2022,5.7499
+Figs,2013,5.75
+Figs,2016,6.13
+Figs,2020,6.8371
+Figs,2022,7.3233
+"Fruit cocktail, packed in juice",2013,1.49
+"Fruit cocktail, packed in juice",2016,1.41
+"Fruit cocktail, packed in juice",2020,1.7198
+"Fruit cocktail, packed in juice",2022,2.394
+"Fruit cocktail, packed in syrup or water",2013,1.24
+"Fruit cocktail, packed in syrup or water",2016,1.26
+"Fruit cocktail, packed in syrup or water",2020,1.5932
+"Fruit cocktail, packed in syrup or water",2022,2.0996
+Grapefruit,2013,0.9
+Grapefruit,2016,1.01
+Grapefruit,2020,1.1695
+Grapefruit,2022,1.4444
+"Grapefruit, ready-to-drink",2013,0.67
+"Grapefruit, ready-to-drink",2016,0.85
+"Grapefruit, ready-to-drink",2020,1.0415
+"Grapefruit, ready-to-drink",2022,1.1935
+Grapes,2013,2.09
+Grapes,2016,2.24
+Grapes,2020,1.8398
+Grapes,2022,2.0363
+Grapes (raisins),2013,3.5
+Grapes (raisins),2016,3.58
+Grapes (raisins),2020,3.7801
+Grapes (raisins),2022,3.9936
+"Grapes, ready-to-drink",2013,0.91
+"Grapes, ready-to-drink",2016,0.85
+"Grapes, ready-to-drink",2020,0.9215
+"Grapes, ready-to-drink",2022,1.0509
+"Grapes, frozen concentrate",2013,0.72
+"Grapes, frozen concentrate",2016,0.74
+"Grapes, frozen concentrate",2020,0.7119
+"Grapes, frozen concentrate",2022,0.7524
+Honeydew,2013,0.8
+Honeydew,2016,0.83
+Honeydew,2020,0.9056
+Honeydew,2022,1.1589
+Kiwi,2013,2.04
+Kiwi,2016,2.18
+Kiwi,2020,2.1849
+Kiwi,2022,2.6064
+Mangoes,2013,1.38
+Mangoes,2016,1.32
+Mangoes,2020,1.1513
+Mangoes,2022,1.4698
+Mangoes,2013,8.5
+Mangoes,2016,10.16
+Mangoes,2020,10.5527
+Mangoes,2022,10.3035
+Nectarines,2013,1.76
+Nectarines,2016,1.88
+Nectarines,2020,1.9062
+Nectarines,2022,2.3721
+Oranges,2013,1.04
+Oranges,2016,1.1
+Oranges,2020,1.2131
+Oranges,2022,1.4624
+"Oranges, ready-to-drink",2013,0.8
+"Oranges, ready-to-drink",2016,0.85
+"Oranges, ready-to-drink",2020,0.9842
+"Oranges, ready-to-drink",2022,1.0572
+"Oranges, frozen concentrate",2013,0.69
+"Oranges, frozen concentrate",2016,0.66
+"Oranges, frozen concentrate",2020,0.769
+"Oranges, frozen concentrate",2022,0.7338
+Papaya,2013,1.3
+Papaya,2016,1.29
+Papaya,2020,1.2904
+Papaya,2022,1.3375
+Papaya,2013,4.57
+Papaya,2016,5.27
+Papaya,2020,5.5089
+Papaya,2022,7.4854
+Peaches,2013,1.59
+Peaches,2016,1.68
+Peaches,2020,1.7167
+Peaches,2022,2.1785
+"Peaches, packed in juice",2013,1.96
+"Peaches, packed in juice",2016,1.88
+"Peaches, packed in juice",2020,2.0237
+"Peaches, packed in juice",2022,2.2503
+"Peaches, packed in syrup or water",2013,1.51
+"Peaches, packed in syrup or water",2016,1.59
+"Peaches, packed in syrup or water",2020,1.8117
+"Peaches, packed in syrup or water",2022,2.0102
+Peaches,2013,2.89
+Peaches,2016,3.19
+Peaches,2020,3.3867
+Peaches,2022,3.6058
+Pears,2013,1.46
+Pears,2016,1.52
+Pears,2020,1.5865
+Pears,2022,1.8472
+"Pears, packed in juice",2013,1.85
+"Pears, packed in juice",2016,1.79
+"Pears, packed in juice",2020,1.9546
+"Pears, packed in juice",2022,2.14
+"Pears, packed in syrup or water",2013,1.63
+"Pears, packed in syrup or water",2016,1.57
+"Pears, packed in syrup or water",2020,1.897
+"Pears, packed in syrup or water",2022,2.092
+Pineapple,2013,0.63
+Pineapple,2016,0.65
+Pineapple,2020,0.5685
+Pineapple,2022,0.617
+"Pineapple, packed in juice",2013,1.14
+"Pineapple, packed in juice",2016,1.28
+"Pineapple, packed in juice",2020,1.4344
+"Pineapple, packed in juice",2022,1.6509
+"Pineapple, packed in syrup or water",2013,1.13
+"Pineapple, packed in syrup or water",2016,1.36
+"Pineapple, packed in syrup or water",2020,1.4067
+"Pineapple, packed in syrup or water",2022,1.7771
+Pineapple,2013,5.5
+Pineapple,2016,5.87
+Pineapple,2020,6.6492
+Pineapple,2022,7.0133
+"Pineapple, ready-to-drink",2013,0.91
+"Pineapple, ready-to-drink",2016,0.97
+"Pineapple, ready-to-drink",2020,1.0288
+"Pineapple, ready-to-drink",2022,1.2243
+"Pineapple, frozen concentrate",2013,0.59
+"Pineapple, frozen concentrate",2016,0.62
+"Pineapple, frozen concentrate",2020,0.6973
+"Pineapple, frozen concentrate",2022,0.7256
+Plum,2013,1.83
+Plum,2016,1.99
+Plum,2020,2.0292
+Plum,2022,2.5259
+Plum (prunes),2013,4.04
+Plum (prunes),2016,4.73
+Plum (prunes),2020,5.7042
+Plum (prunes),2022,6.3293
+"Plum (prune), ready-to-drink",2013,1.16
+"Plum (prune), ready-to-drink",2016,1.45
+"Plum (prune), ready-to-drink",2020,1.5522
+"Plum (prune), ready-to-drink",2022,1.6988
+Pomegranate,2013,2.17
+Pomegranate,2016,2.08
+Pomegranate,2020,2.235
+Pomegranate,2022,2.4672
+"Pomegranate, ready-to-drink",2013,2.94
+"Pomegranate, ready-to-drink",2016,3.01
+"Pomegranate, ready-to-drink",2020,3.122
+"Pomegranate, ready-to-drink",2022,3.2788
+Raspberries,2013,6.98
+Raspberries,2016,6.77
+Raspberries,2020,6.6391
+Raspberries,2022,7.7338
+Raspberries,2013,4.45
+Raspberries,2016,4.76
+Raspberries,2020,4.1877
+Raspberries,2022,6.159
+Strawberries,2013,2.36
+Strawberries,2016,2.51
+Strawberries,2020,2.58
+Strawberries,2022,2.9682
+Strawberries,2013,2.38
+Strawberries,2016,2.61
+Strawberries,2020,2.8189
+Strawberries,2022,3.3421
+Watermelon,2013,0.33
+Watermelon,2016,0.32
+Watermelon,2020,0.3604
+Watermelon,2022,0.382
